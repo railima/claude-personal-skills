@@ -11,6 +11,7 @@ Auto-triggered behavioral guidance. When Claude detects a matching context, the 
 | Skill | What it does |
 |---|---|
 | [stacked-prs](skills/stacked-prs/SKILL.md) | Manages chains of dependent feature branches (stacked PRs). Tracks parent relationships in `git config`, cascades rebases when a parent PR merges, never touches remote state. |
+| [cctree](skills/cctree/SKILL.md) | Organizes related Claude Code conversations into persistent session trees with bidirectional context recall, so work spanning multiple sessions inherits earlier decisions. Dependency-free (Python 3 stdlib), stores state in `~/.cctree`, no npm or MCP server. |
 
 ### Slash commands (`commands/`)
 
